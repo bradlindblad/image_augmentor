@@ -21,5 +21,7 @@ p.random_contrast(probability=0.7 ,min_factor=1, max_factor=2)
 p.random_distortion(0.4, grid_width=6, grid_height=6, magnitude=5)
 p.rotate(probability=0.4, max_right_rotation=10, max_left_rotation=10)
 
-size =int(sys.argv[2])  # change the argv to an integer
+size = int(sys.argv[2])  # change the argv to an integer
 p.sample(size)
+
+
