@@ -9,8 +9,8 @@ import Augmentor
 import getopt
 import sys
 
-#p = Augmentor.Pipeline(sys.argv[1])
-p = Augmentor.Pipeline('C:\\Users\\XPS\\Desktop\\yo')
+p = Augmentor.Pipeline(sys.argv[1])
+
 p.rotate90(probability=0.5)
 p.rotate270(probability=0.5)
 p.flip_left_right(probability=0.8)
