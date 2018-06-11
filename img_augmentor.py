@@ -8,7 +8,6 @@ Args:
 
 import Augmentor
 import sys
-import pyautogui
 
 p = Augmentor.Pipeline(sys.argv[1])  # pull in the file path of folder to be augmented
 
